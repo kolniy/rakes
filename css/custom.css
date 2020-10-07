@@ -421,3 +421,7 @@ h6 {
   text-transform: uppercase;
   font-size: 17px;
 }
+
+.checkout-section .checkout-info {
+  max-width: 400px;
+}

@@ -165,11 +165,258 @@
     <section class="checkout-section container">
       <div class="row">
         <div class="col-sm-6">
-          <h3 class="text-center">Your Contact Details</h3>
+          <h3>Where do we ship your order to</h3>
+          <br />
+          <div class="checkout-info">
+            <form action="">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-control"
+                  required
+                  placeholder="James Smith"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                  required
+                  placeholder="JamesSmith@example.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input
+                  type="number"
+                  name="number"
+                  id="number"
+                  class="form-control"
+                  required
+                  placeholder="+23480923858594"
+                />
+              </div>
+              <div class="form-group">
+                <label for="address">Address</label>
+                <input
+                  type="text"
+                  name="address"
+                  id="address"
+                  class="form-control"
+                  required
+                  placeholder="your Address"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">City</label>
+                <input
+                  type="text"
+                  name="city"
+                  id="city"
+                  class="form-control"
+                  required
+                  placeholder="city name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="state">state</label>
+                <input
+                  type="text"
+                  name="state"
+                  id="state"
+                  class="form-control"
+                  required
+                  placeholder="State"
+                />
+              </div>
+              <div class="form-group">
+                <label for="country">Country</label>
+                <input
+                  type="text"
+                  name="country"
+                  id="country"
+                  class="form-control"
+                  required
+                  placeholder="country"
+                />
+              </div>
+            </form>
+          </div>
         </div>
         <div class="col-sm-6">
           <div class="payment-summary">
-            <h3 class="text-center">Payment Review And Summary</h3>
+            <h3>Payment Review And Summary</h3>
+            <br />
+            <div class="cart-section">
+              <div class="panel panel-default">
+                <div class="panel-heading bg-col">Cart Items</div>
+                <div class="panel-body">
+                  <table class="table">
+                    <tr>
+                      <th>ITEM</th>
+                      <th>Price</th>
+                      <th>Quantity</th>
+                      <th>Total</th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="item-img">
+                              <img src="images/food2.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="item-name">
+                              <p>
+                                Delicious food, served with hot peppery sauce
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <h3>#500</h3>
+                      </td>
+                      <td>
+                        <h3>4</h3>
+                      </td>
+                      <td>
+                        <h3>#2000</h3>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="item-img">
+                              <img src="images/food3.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="item-name">
+                              <p>
+                                Delicious food, served with hot peppery sauce
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <h3>#500</h3>
+                      </td>
+                      <td>
+                        <h3>4</h3>
+                      </td>
+                      <td>
+                        <h3>#2000</h3>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="item-img">
+                              <img src="images/food1.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="item-name">
+                              <p>
+                                Delicious food, served with hot peppery sauce
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <h3>#500</h3>
+                      </td>
+                      <td>
+                        <h3>4</h3>
+                      </td>
+                      <td>
+                        <h3>#2000</h3>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="item-img">
+                              <img src="images/food4.jpg" alt="" />
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="item-name">
+                              <p>
+                                Delicious food, served with hot peppery sauce
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <h3>#500</h3>
+                      </td>
+                      <td>
+                        <h3>4</h3>
+                      </td>
+                      <td>
+                        <h3>#2000</h3>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <div class="pricetotal-container">
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h4>Order Total :</h4>
+                      </div>
+                      <div class="col-md-2">
+                        <h3>#8000</h3>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h4>Shipping Fee :</h4>
+                      </div>
+                      <div class="col-md-2">
+                        <h3>#300</h3>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h4>Total Price :</h4>
+                      </div>
+                      <div class="col-md-2">
+                        <h3>#8300</h3>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10"></div>
+                      <div class="col-md-2">
+                        <div class="place-order">
+                          <a
+                            class="btn btn-lg"
+                            href="/index.html"
+                            class="placeorder"
+                          >
+                            Place Order
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
