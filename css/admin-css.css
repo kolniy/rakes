@@ -1,0 +1,110 @@
+﻿.navbar-default{
+    background-color: #FAFAFA !important;
+    border:none;
+    padding-bottom: 10px;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius: 0;
+}
+
+.navbar-default .navbar-nav> li> a{
+    color : #F2A12A;
+    font: size 16px;
+    font-family: 'Lato', sans-serif;
+}
+.navbar-default .navbar-nav> li> a:hover{
+color:  rgb(167, 159, 159);
+}
+
+.badge{
+    background-color: #F2A12A;
+}
+
+
+.customBtn{
+    color: #F2A12A;
+    border : none;
+    background-color: #FAFAFA;
+}
+
+.customBtn:hover{
+    background-color: #FAFAFA;
+    color: rgb(167, 159, 159);
+}
+
+
+#quickPgs{
+    margin-top:13px;
+}
+
+.dropdown-menu li a{
+    color: #F2A12A;
+    transition: background-color 0.5s;
+}
+
+.dropdown-menu li a:hover{
+    background-color: rgb(240, 240, 240);
+    color: #F2A12A;
+}
+
+#header{
+    margin-top : -20px;
+    background-color: gainsboro;
+}
+
+#quickEdit{
+    padding-top : 25px;
+}
+
+.quickEditBtn{
+   
+    background-color: gainsboro;
+}
+
+.list-group{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border : none !important;
+}
+
+.active{
+    background-color: #F2A12A !important;
+}
+
+.bg-col{
+    background-color: #F2A12A !important;
+    color: #FAFAFA !important;
+}
+.stats-item:hover{
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -o-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.noMarginTop{
+    margin-bottom: -3px;
+  
+}
+
+.backGrdDD{
+    background-color: #FAFAFA;
+}
+
+.list-group{
+    border : none;
+}
+
+.list-group-item{
+    font-size: 14px !important;
+}
+
+#footer{
+    background-color : #F2A12A;
+    color: #ffffff;
+    padding : 30px;
+    margin-top : 30px;
+}

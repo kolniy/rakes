@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="../bootstrap/css/bootstrap.min.css" rel="Stylesheet">
+    <link href="../font-awesome/fontawesome-free/web-fonts-with-css/css/fontawesome-all.css" rel="Stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="../css/admin-css.css" rel="Stylesheet">
+    <link href="../css/animate.css" rel="Stylesheet">
+
+    <title>Rakesplace - The number one food network </title>
+
+    </head>
+    <body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#rakes-place-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">RakesFoodPlace Admin</a>
+      </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="rakes-place-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class=""><a href="index.html">Dashboard <span class="sr-only">(current)</span></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class=""><a href="index.html">Orders <span class="badge">12<span></a></li>
+              <li><a href="Contact Us.html">Messages <span class="badge">12<span></a></li>
+              <li id="quickPgs" class="dropdown">
+                        <button class="btn btn-default customBtn dropdown-toggle" type="button" id="quickEditBtn" data-toggle="dropdown">Quick Pages <span class="caret"></span></button>
+                        <ul class="dropdown-menu" aria-labelledby="quickEditBtn">
+                            <li><a href="">Create New Admin Member</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-wrench"></span> Edit My Profile</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                        </ul>
+                    </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+      </nav>
+
+      <header id="header">
+          <div class="container">
+              <div class="row">
+              <div class="col-md-10">
+                <h1><span class="glyphicon glyphicon-cog" aria-hidden ="true"></span> Dashboard <small>Manage Your Site</small></h1>
+              </div>
+              <div class="col-md-2">
+                <div id="quickEdit" class="dropdown">
+                    <button class="btn btn-default dropdown-toggle quickEditBtn" type="button" id="quickEditBtn" data-toggle="dropdown">Quick Pages <span class="caret"></span></button>
+                    <ul class="dropdown-menu" aria-labelledby="quickEditBtn">
+                        <li><a href="">Create New Breakfast</a></li>
+                        <li><a href="">View Orders</a></li>
+                        <li><a href="">Add New Item</a></li>
+                    </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+      </header>
+
+      <br>
+
+      <div id="main">
+          <div class = "container">
+              <div class="row">
+                  <div class="col-md-3">
+                        <div id="left-links" class="list-group">
+                                <a href="#" class="list-group-item active">
+                                       Summary
+                                      </a>
+                                      <div class="dropdown">
+                                      <a href="#admin-dropdwn" class="list-group-item dropdown-toggle" data-toggle="collapse"><span class="glyphicon glyphicon-user"></span> Admin <span class="caret"></span></a>
+                                      <ul id="admin-dropdwn" class="list-group collapse noMarginTop">
+                                            <a href="#" class="list-group-item backGrdDD"></i>Add New Admin Member</a> 
+                                            <a href="#" class="list-group-item backGrdDD"></i>View And Edit Admin Member</a>
+                                      </ul>
+                                    </div>
+
+                                    <div class="dropdown">
+                                      <a href="#breakFst-dropdwn" class="list-group-item dropdown-toggle" data-toggle="collapse"><i class="fas fa-utensils fa-1x"></i> BreakFast <span class="caret"></span></a>
+                                      <ul id="breakFst-dropdwn" class="list-group collapse noMarginTop">
+                                            <a href="#" class="list-group-item backGrdDD"></i>Create New Breakfast</a> 
+                                            <a href="#" class="list-group-item backGrdDD"></i>View and Edit Breakfast List</a>
+                                      </ul>
+                                    </div>
+
+                                    <div class="dropdown">
+                                      <a href="#mealOpt-dropdwn" class="list-group-item dropdown-toggle" data-toggle="collapse">Meal Options <span class="caret"></span> <span class="badge">14</span></a>
+                                      <ul id="mealOpt-dropdwn" class="list-group collapse noMarginTop">
+                                            <a href="#" class="list-group-item backGrdDD"></i>Add New</a> 
+                                            <a href="#" class="list-group-item backGrdDD"></i>View and Edit List</a>
+                                      </ul>
+                                    </div>
+                                      <a href="#" class="list-group-item">Orders <span class="caret"></span> <span class="badge">14</span></a>
+                                      <a href="#" class="list-group-item">Notifications <span class="badge">14</span></a>
+                        </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="panel panel-default">
+                        <div class="panel-heading bg-col">Quick Stats</div>
+                        <div class="panel-body">
+                            <div class="row">
+                             <div class="col-sm-3">
+                                <div class="well text-center stats-item">
+                                    <h2><span class="glyphicon glyphicon-user"></span> 10</h2>
+                                    <h4>Admin Members</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                    <div class="well text-center stats-item">
+                                        <h2><span class="glyphicon glyphicon-user"></span> 10</h2>
+                                        <h4>Orders</h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                        <div class="well text-center stats-item">
+                                            <h2><span class="glyphicon glyphicon-user"></span> 10</h2>
+                                            <h4>Notifications</h4>
+                                        </div>
+                                    </div>
+                                 <div class="col-sm-3">
+                                            <div class="well text-center stats-item">
+                                                <h2><span class="glyphicon glyphicon-user"></span> 10</h2>
+                                                <h4>Users</h4>
+                                            </div>
+                                 </div>
+                            </div>
+
+                        </div>
+                      </div>
+
+                      <!-- The list of admin users  -->
+
+                      <div class="panel panel-default">
+                            <div class="panel-heading bg-col">Admin List</div>
+                            <div class="panel-body">
+                                <table class="table table-hover">
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>E-mail</th>
+                                        <th>Phone Number</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Kolawole olaniyi</td>
+                                        <td>Kolaniyi3@gmail.com</td>
+                                        <td>07038954278</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Kolawole olaniyi</td>
+                                      <td>Kolaniyi3@gmail.com</td>
+                                      <td>07038954278</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Kolawole olaniyi</td>
+                                      <td>Kolaniyi3@gmail.com</td>
+                                      <td>07038954278</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Kolawole olaniyi</td>
+                                      <td>Kolaniyi3@gmail.com</td>
+                                      <td>07038954278</td>
+                                    </tr>
+                                </table>
+                         </div>
+                    </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div id="footer" class="text-center">
+          <p>Copyright Rakesfood Place, &copy; 2018</p>
+      </div>
+
+ <script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/stickyfill-master/src/stickyfill.js"></script>
+
+    </body>
+    </html>
